@@ -3,10 +3,13 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/1pg7navn073edwdd)](https://ci.appveyor.com/project/vevix/digitalocean-api)
 ![NuGet version](https://img.shields.io/nuget/v/DigitalOcean.API.png)
 
-Implementation of the DigitalOcean API (v2) for .NET.
+A fork of the [original DigitalOcean API](https://github.com/michaelflowers/DigitalOcean.API) for . Implementation of the DigitalOcean API (v2) for .Net Core.
 
-[![NuGet](http://i.imgur.com/M4DTYI4.png)](https://www.nuget.org/packages/DigitalOcean.API)
-
+## Installation
+Run the following in the Package Manager Console
+```
+PM> Install-Package DigitalOcean.API.Core
+```
 ## Usage Examples
 
 ```csharp

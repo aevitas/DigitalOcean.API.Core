@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <Description>.NET wrapper of the DigitalOcean API</Description>
-    <Company>Thomas McNiven</Company>
-    <Copyright>Copyright © 2014</Copyright>
+    <Description>A fork of .NET wrapper of the DigitalOcean API for .Net Core 2.0</Description>
+    <Company>Mike Flowers</Company>
+    <Copyright>Copyright © 2017</Copyright>
     <AssemblyVersion>1.0.5.0</AssemblyVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>DigitalOcean.API.Core</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
